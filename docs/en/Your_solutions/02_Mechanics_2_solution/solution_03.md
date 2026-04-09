@@ -1,33 +1,38 @@
-# Physics Solution: Conservation of Energy in a Pendulum
+# Physics Analysis: Pendulum Velocity via Energy Conservation
 
-## Problem Statement
-A pendulum ($L = 1.0 \, \text{m}$) is released from $\theta = 15^\circ$. Find the speed at the bottom of the swing.
+## 1. Geometric Setup
+The vertical height $h$ through which the pendulum bob falls is determined by the length $L$ and the initial angle $\theta$.
 
-## 1. Geometric Analysis
-To find the potential energy, we must first find the vertical height ($h$) the bob descends.
-Using trigonometry:
-$$h = L(1 - \cos\theta)$$
+**Derivation:**
+The height of the bob at angle $\theta$ relative to the pivot is $L \cos\theta$. 
+The height at the equilibrium position is $L$.
+Therefore, the height change is:
+$$h = L - L \cos\theta = L(1 - \cos\theta)$$
 
-**Substitution:**
-$$h = 1.0 \, (1 - \cos 15^\circ)$$
-$$h \approx 1.0 \, (1 - 0.9659) = 0.0341 \, \text{m}$$
+**Data Substitution:**
+- $L = 1.0 \, \text{m}$
+- $\theta = 15^\circ$
+- $h = 1.0(1 - \cos 15^\circ) \approx 0.0341 \, \text{m}$
 
 ---
 
-## 2. Energy Transformation
-According to the Law of Conservation of Energy:
-$$PE_{initial} = KE_{final}$$
+## 2. Conservation of Mechanical Energy
+We assume an isolated system where mechanical energy $E$ is conserved:
+$$E_{initial} = E_{final}$$
+$$U_{top} + K_{top} = U_{bottom} + K_{bottom}$$
+
+Since the bob starts from rest ($K_{top} = 0$) and we set the bottom as our reference height ($U_{bottom} = 0$):
 $$mgh = \frac{1}{2}mv^2$$
 
-The mass ($m$) cancels out on both sides, showing that the speed is independent of the weight of the bob:
-$$v = \sqrt{2gh}$$
-
 ---
 
-## 3. Final Computation
-Using $g = 9.81 \, \text{m/s}^2$:
+## 3. Calculation of Speed ($v$)
+Solving for $v$ by canceling mass:
+$$v = \sqrt{2gh}$$
+
+**Final Computation ($g = 9.81 \, \text{m/s}^2$):**
 $$v = \sqrt{2 \cdot 9.81 \cdot 0.0341}$$
-$$v = \sqrt{0.6690}$$
+$$v = \sqrt{0.669}$$
 $$v \approx 0.818 \, \text{m/s}$$
 
-**Result:** The speed of the pendulum bob at the bottom of its swing is approximately **0.82 m/s**.
+**Result:** The velocity of the bob at the lowest point of its trajectory is **0.82 m/s**.
