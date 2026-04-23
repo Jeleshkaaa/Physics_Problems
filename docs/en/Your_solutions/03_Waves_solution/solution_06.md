@@ -76,7 +76,3 @@ $$v = f \cdot \lambda$$
 | **Frequency** | 25 | Hertz |
 | **Wave Speed** | 25 | m/s |
 
----
-
-## 💻 Implementation
-The repository includes a script to automate these calculations. Simply input the coefficients $A$, $k$, and $\omega$ to retrieve the wave's properties.
