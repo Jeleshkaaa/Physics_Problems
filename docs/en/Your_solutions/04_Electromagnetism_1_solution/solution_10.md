@@ -15,7 +15,7 @@ $$F = I L B \sin(\theta)$$
 ---
 
 ## 2. Extracted Parameters
-Based on the problem statement provided in **image_f17597.png**, the following values remain constant for all scenarios:
+Based on the problem statement provided, the following values remain constant for all scenarios:
 * **Current ($I$):** $10 \text{ A}$
 * **Length ($L$):** $2.0 \text{ m}$
 * **Magnetic Field ($B$):** $0.5 \text{ T}$
