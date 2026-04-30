@@ -54,9 +54,3 @@ When the wire is parallel to the magnetic field, no force is generated because $
 | **$0^\circ$** | $0 \text{ N}$ |
 
 ---
-
-## 💡 Note on Direction
-The direction of the resulting force can be determined using the **Right-Hand Rule**:
-1. Point your thumb in the direction of the **current ($I$)**.
-2. Point your fingers in the direction of the **magnetic field ($B$)**.
-3. Your palm points in the direction of the **magnetic force ($F$)**.
