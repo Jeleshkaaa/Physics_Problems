@@ -48,6 +48,4 @@ $$\\mathbf{\\% \\text{ Error} = 2\\%}$$
 ---
 
 ## Conclusion
-Using a realistic measurement of **6.0 cm** between the melted spots, the calculated speed of light is **294,000,000 m/s**. When evaluated against the accepted value of 300,000,000 m/s, this simple experiment yields an incredibly low **percentage error of only 2%**. This demonstrates that mapping standing waves with household items is a highly effective and accurate method for demonstrating fundamental physics principles.mes 100 \approx \mathbf{0.37\%}$$
-
-*(In this example, an error of 0.37% is an incredibly accurate result for a kitchen experiment!)*
+Using a realistic measurement of **6.0 cm** between the melted spots, the calculated speed of light is **294,000,000 m/s**. When evaluated against the accepted value of 300,000,000 m/s, this simple experiment yields an incredibly low **percentage error of only 2%**. 
